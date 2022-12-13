@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25F491F8D2C6BAE9979CD828 /* Pods_FoodSwipeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C00D71CFD190977D80A955F /* Pods_FoodSwipeTests.framework */; };
+		7B84B0E8318635EC4DB6A5CF /* Pods_FoodSwipe_FoodSwipeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85DE13FE390BBA28E01876D0 /* Pods_FoodSwipe_FoodSwipeUITests.framework */; };
+		9248D7DD294916FE0048E31E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9248D7DC294916FE0048E31E /* AppDelegate.swift */; };
+		9248D7DF294916FE0048E31E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9248D7DE294916FE0048E31E /* SceneDelegate.swift */; };
+		9248D7E1294916FE0048E31E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9248D7E0294916FE0048E31E /* ViewController.swift */; };
+		9248D7E4294916FE0048E31E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9248D7E2294916FE0048E31E /* Main.storyboard */; };
+		9248D7E6294917050048E31E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9248D7E5294917050048E31E /* Assets.xcassets */; };
+		9248D7E9294917050048E31E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9248D7E7294917050048E31E /* LaunchScreen.storyboard */; };
+		9248D7F4294917050048E31E /* FoodSwipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9248D7F3294917050048E31E /* FoodSwipeTests.swift */; };
+		9248D7FE294917050048E31E /* FoodSwipeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9248D7FD294917050048E31E /* FoodSwipeUITests.swift */; };
+		9248D800294917050048E31E /* FoodSwipeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9248D7FF294917050048E31E /* FoodSwipeUITestsLaunchTests.swift */; };
+		F8BC7454BC8CE9D9F58BD2F8 /* Pods_FoodSwipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E839CB4CA5FE7A89507475C /* Pods_FoodSwipe.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9248D7F0294917050048E31E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9248D7D1294916FE0048E31E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9248D7D8294916FE0048E31E;
+			remoteInfo = FoodSwipe;
+		};
+		9248D7FA294917050048E31E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9248D7D1294916FE0048E31E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9248D7D8294916FE0048E31E;
+			remoteInfo = FoodSwipe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24135279F040EF9D0B2C5057 /* Pods-FoodSwipeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodSwipeTests.debug.xcconfig"; path = "Target Support Files/Pods-FoodSwipeTests/Pods-FoodSwipeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4FF92CEC9E5F8FE97A4CDC37 /* Pods-FoodSwipeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodSwipeTests.release.xcconfig"; path = "Target Support Files/Pods-FoodSwipeTests/Pods-FoodSwipeTests.release.xcconfig"; sourceTree = "<group>"; };
+		5D8FDACE835FFA225407D2B5 /* Pods-FoodSwipe-FoodSwipeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodSwipe-FoodSwipeUITests.debug.xcconfig"; path = "Target Support Files/Pods-FoodSwipe-FoodSwipeUITests/Pods-FoodSwipe-FoodSwipeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D4DE1E7369B0EAB3DDE7E7B /* Pods-FoodSwipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodSwipe.debug.xcconfig"; path = "Target Support Files/Pods-FoodSwipe/Pods-FoodSwipe.debug.xcconfig"; sourceTree = "<group>"; };
+		85DE13FE390BBA28E01876D0 /* Pods_FoodSwipe_FoodSwipeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodSwipe_FoodSwipeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9248D7D9294916FE0048E31E /* FoodSwipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodSwipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9248D7DC294916FE0048E31E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9248D7DE294916FE0048E31E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9248D7E0294916FE0048E31E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9248D7E3294916FE0048E31E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9248D7E5294917050048E31E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9248D7E8294917050048E31E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9248D7EA294917050048E31E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9248D7EF294917050048E31E /* FoodSwipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodSwipeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9248D7F3294917050048E31E /* FoodSwipeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodSwipeTests.swift; sourceTree = "<group>"; };
+		9248D7F9294917050048E31E /* FoodSwipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodSwipeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9248D7FD294917050048E31E /* FoodSwipeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodSwipeUITests.swift; sourceTree = "<group>"; };
+		9248D7FF294917050048E31E /* FoodSwipeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodSwipeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9C00D71CFD190977D80A955F /* Pods_FoodSwipeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodSwipeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E839CB4CA5FE7A89507475C /* Pods_FoodSwipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodSwipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D596899E8F8459882F69C5 /* Pods-FoodSwipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodSwipe.release.xcconfig"; path = "Target Support Files/Pods-FoodSwipe/Pods-FoodSwipe.release.xcconfig"; sourceTree = "<group>"; };
+		EEE7E1FB460CA8D6476BD239 /* Pods-FoodSwipe-FoodSwipeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodSwipe-FoodSwipeUITests.release.xcconfig"; path = "Target Support Files/Pods-FoodSwipe-FoodSwipeUITests/Pods-FoodSwipe-FoodSwipeUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9248D7D6294916FE0048E31E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BC7454BC8CE9D9F58BD2F8 /* Pods_FoodSwipe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9248D7EC294917050048E31E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F491F8D2C6BAE9979CD828 /* Pods_FoodSwipeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9248D7F6294917050048E31E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B84B0E8318635EC4DB6A5CF /* Pods_FoodSwipe_FoodSwipeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B188F7CC01C6724280B8EA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D4DE1E7369B0EAB3DDE7E7B /* Pods-FoodSwipe.debug.xcconfig */,
+				B6D596899E8F8459882F69C5 /* Pods-FoodSwipe.release.xcconfig */,
+				5D8FDACE835FFA225407D2B5 /* Pods-FoodSwipe-FoodSwipeUITests.debug.xcconfig */,
+				EEE7E1FB460CA8D6476BD239 /* Pods-FoodSwipe-FoodSwipeUITests.release.xcconfig */,
+				24135279F040EF9D0B2C5057 /* Pods-FoodSwipeTests.debug.xcconfig */,
+				4FF92CEC9E5F8FE97A4CDC37 /* Pods-FoodSwipeTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9248D7D0294916FE0048E31E = {
+			isa = PBXGroup;
+			children = (
+				9248D7DB294916FE0048E31E /* FoodSwipe */,
+				9248D7F2294917050048E31E /* FoodSwipeTests */,
+				9248D7FC294917050048E31E /* FoodSwipeUITests */,
+				9248D7DA294916FE0048E31E /* Products */,
+				3B188F7CC01C6724280B8EA4 /* Pods */,
+				FFE3BF75807FBE274A81FEC6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9248D7DA294916FE0048E31E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9248D7D9294916FE0048E31E /* FoodSwipe.app */,
+				9248D7EF294917050048E31E /* FoodSwipeTests.xctest */,
+				9248D7F9294917050048E31E /* FoodSwipeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9248D7DB294916FE0048E31E /* FoodSwipe */ = {
+			isa = PBXGroup;
+			children = (
+				9248D7DC294916FE0048E31E /* AppDelegate.swift */,
+				9248D7DE294916FE0048E31E /* SceneDelegate.swift */,
+				9248D7E0294916FE0048E31E /* ViewController.swift */,
+				9248D7E2294916FE0048E31E /* Main.storyboard */,
+				9248D7E5294917050048E31E /* Assets.xcassets */,
+				9248D7E7294917050048E31E /* LaunchScreen.storyboard */,
+				9248D7EA294917050048E31E /* Info.plist */,
+			);
+			path = FoodSwipe;
+			sourceTree = "<group>";
+		};
+		9248D7F2294917050048E31E /* FoodSwipeTests */ = {
+			isa = PBXGroup;
+			children = (
+				9248D7F3294917050048E31E /* FoodSwipeTests.swift */,
+			);
+			path = FoodSwipeTests;
+			sourceTree = "<group>";
+		};
+		9248D7FC294917050048E31E /* FoodSwipeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9248D7FD294917050048E31E /* FoodSwipeUITests.swift */,
+				9248D7FF294917050048E31E /* FoodSwipeUITestsLaunchTests.swift */,
+			);
+			path = FoodSwipeUITests;
+			sourceTree = "<group>";
+		};
+		FFE3BF75807FBE274A81FEC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E839CB4CA5FE7A89507475C /* Pods_FoodSwipe.framework */,
+				85DE13FE390BBA28E01876D0 /* Pods_FoodSwipe_FoodSwipeUITests.framework */,
+				9C00D71CFD190977D80A955F /* Pods_FoodSwipeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9248D7D8294916FE0048E31E /* FoodSwipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9248D803294917050048E31E /* Build configuration list for PBXNativeTarget "FoodSwipe" */;
+			buildPhases = (
+				79D545CB7AEF15833CF6D1EF /* [CP] Check Pods Manifest.lock */,
+				9248D7D5294916FE0048E31E /* Sources */,
+				9248D7D6294916FE0048E31E /* Frameworks */,
+				9248D7D7294916FE0048E31E /* Resources */,
+				CAF61D5512AA6060F5290741 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodSwipe;
+			productName = FoodSwipe;
+			productReference = 9248D7D9294916FE0048E31E /* FoodSwipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9248D7EE294917050048E31E /* FoodSwipeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9248D806294917050048E31E /* Build configuration list for PBXNativeTarget "FoodSwipeTests" */;
+			buildPhases = (
+				3E1F543D2B1A516015623440 /* [CP] Check Pods Manifest.lock */,
+				9248D7EB294917050048E31E /* Sources */,
+				9248D7EC294917050048E31E /* Frameworks */,
+				9248D7ED294917050048E31E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9248D7F1294917050048E31E /* PBXTargetDependency */,
+			);
+			name = FoodSwipeTests;
+			productName = FoodSwipeTests;
+			productReference = 9248D7EF294917050048E31E /* FoodSwipeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9248D7F8294917050048E31E /* FoodSwipeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9248D809294917050048E31E /* Build configuration list for PBXNativeTarget "FoodSwipeUITests" */;
+			buildPhases = (
+				80122255C972B47D053599D9 /* [CP] Check Pods Manifest.lock */,
+				9248D7F5294917050048E31E /* Sources */,
+				9248D7F6294917050048E31E /* Frameworks */,
+				9248D7F7294917050048E31E /* Resources */,
+				601783F9D4C701327128E10F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9248D7FB294917050048E31E /* PBXTargetDependency */,
+			);
+			name = FoodSwipeUITests;
+			productName = FoodSwipeUITests;
+			productReference = 9248D7F9294917050048E31E /* FoodSwipeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9248D7D1294916FE0048E31E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					9248D7D8294916FE0048E31E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					9248D7EE294917050048E31E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 9248D7D8294916FE0048E31E;
+					};
+					9248D7F8294917050048E31E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 9248D7D8294916FE0048E31E;
+					};
+				};
+			};
+			buildConfigurationList = 9248D7D4294916FE0048E31E /* Build configuration list for PBXProject "FoodSwipe" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9248D7D0294916FE0048E31E;
+			productRefGroup = 9248D7DA294916FE0048E31E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9248D7D8294916FE0048E31E /* FoodSwipe */,
+				9248D7EE294917050048E31E /* FoodSwipeTests */,
+				9248D7F8294917050048E31E /* FoodSwipeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9248D7D7294916FE0048E31E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9248D7E9294917050048E31E /* LaunchScreen.storyboard in Resources */,
+				9248D7E6294917050048E31E /* Assets.xcassets in Resources */,
+				9248D7E4294916FE0048E31E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9248D7ED294917050048E31E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9248D7F7294917050048E31E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E1F543D2B1A516015623440 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodSwipeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		601783F9D4C701327128E10F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodSwipe-FoodSwipeUITests/Pods-FoodSwipe-FoodSwipeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodSwipe-FoodSwipeUITests/Pods-FoodSwipe-FoodSwipeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodSwipe-FoodSwipeUITests/Pods-FoodSwipe-FoodSwipeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79D545CB7AEF15833CF6D1EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodSwipe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80122255C972B47D053599D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodSwipe-FoodSwipeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAF61D5512AA6060F5290741 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodSwipe/Pods-FoodSwipe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodSwipe/Pods-FoodSwipe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodSwipe/Pods-FoodSwipe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9248D7D5294916FE0048E31E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9248D7E1294916FE0048E31E /* ViewController.swift in Sources */,
+				9248D7DD294916FE0048E31E /* AppDelegate.swift in Sources */,
+				9248D7DF294916FE0048E31E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9248D7EB294917050048E31E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9248D7F4294917050048E31E /* FoodSwipeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9248D7F5294917050048E31E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9248D7FE294917050048E31E /* FoodSwipeUITests.swift in Sources */,
+				9248D800294917050048E31E /* FoodSwipeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9248D7F1294917050048E31E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9248D7D8294916FE0048E31E /* FoodSwipe */;
+			targetProxy = 9248D7F0294917050048E31E /* PBXContainerItemProxy */;
+		};
+		9248D7FB294917050048E31E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9248D7D8294916FE0048E31E /* FoodSwipe */;
+			targetProxy = 9248D7FA294917050048E31E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9248D7E2294916FE0048E31E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9248D7E3294916FE0048E31E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9248D7E7294917050048E31E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9248D7E8294917050048E31E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9248D801294917050048E31E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9248D802294917050048E31E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9248D804294917050048E31E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D4DE1E7369B0EAB3DDE7E7B /* Pods-FoodSwipe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodSwipe/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mtangog-mail.sfsu.edu.FoodSwipe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9248D805294917050048E31E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6D596899E8F8459882F69C5 /* Pods-FoodSwipe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodSwipe/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mtangog-mail.sfsu.edu.FoodSwipe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9248D807294917050048E31E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24135279F040EF9D0B2C5057 /* Pods-FoodSwipeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mtangog-mail.sfsu.edu.FoodSwipeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodSwipe.app/FoodSwipe";
+			};
+			name = Debug;
+		};
+		9248D808294917050048E31E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FF92CEC9E5F8FE97A4CDC37 /* Pods-FoodSwipeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mtangog-mail.sfsu.edu.FoodSwipeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodSwipe.app/FoodSwipe";
+			};
+			name = Release;
+		};
+		9248D80A294917050048E31E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D8FDACE835FFA225407D2B5 /* Pods-FoodSwipe-FoodSwipeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mtangog-mail.sfsu.edu.FoodSwipeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodSwipe;
+			};
+			name = Debug;
+		};
+		9248D80B294917050048E31E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEE7E1FB460CA8D6476BD239 /* Pods-FoodSwipe-FoodSwipeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mtangog-mail.sfsu.edu.FoodSwipeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodSwipe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9248D7D4294916FE0048E31E /* Build configuration list for PBXProject "FoodSwipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9248D801294917050048E31E /* Debug */,
+				9248D802294917050048E31E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9248D803294917050048E31E /* Build configuration list for PBXNativeTarget "FoodSwipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9248D804294917050048E31E /* Debug */,
+				9248D805294917050048E31E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9248D806294917050048E31E /* Build configuration list for PBXNativeTarget "FoodSwipeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9248D807294917050048E31E /* Debug */,
+				9248D808294917050048E31E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9248D809294917050048E31E /* Build configuration list for PBXNativeTarget "FoodSwipeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9248D80A294917050048E31E /* Debug */,
+				9248D80B294917050048E31E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9248D7D1294916FE0048E31E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_FoodSwipe_FoodSwipeUITests {
+  umbrella header "Pods-FoodSwipe-FoodSwipeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
