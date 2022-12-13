@@ -19,10 +19,10 @@ Features:
 
 If error occur due to CardSlider:
 ------------------------------------------------------------------------
-  -open terminal
-  -open (cd) to FoodSwipe folder
-  -run >> pod init
-  -open podfile, it should have ---> pod 'CardSlider'
-  -then run >> pod install
-  -this should fix the issue. 
+  1) open terminal
+  2) open (cd) to FoodSwipe folder
+  3) run >> pod init
+  4) open podfile, it should have ---> pod 'CardSlider'
+  5) then run >> pod install
+ this should fix the issue. 
 
