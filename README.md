@@ -26,3 +26,8 @@ If error occur due to CardSlider:
   5) then run >> pod install
  this should fix the issue. 
 
+Screenshots
+------------------------------------------------------------------------
+![Launch](/images/launch.png?raw=true "Optional Title")
+![Main](/images/homescreen.png?raw=true "Optional Title")
+
